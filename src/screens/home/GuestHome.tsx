@@ -182,7 +182,7 @@ export function GuestHomeScreen({ children }: GuestHomeScreenProps = {}) {
                     maxWidth: 266,
                   }}
                 >
-                  Identifica medicamentos com a câmara ou pesquise pelo nome.
+                  Identifique medicamentos com a câmara ou pesquise pelo nome.
                 </p>
               </div>
             </div>

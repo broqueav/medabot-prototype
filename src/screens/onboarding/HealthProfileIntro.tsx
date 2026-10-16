@@ -49,7 +49,7 @@ export function HealthProfileIntroScreen() {
               color: 'var(--color-text-on-brand)',
             }}
           >
-            Preencha os seu dados para receber respostas mais precisas e alertas de segurança
+            Preencha os seus dados para receber respostas mais precisas e alertas de segurança
           </p>
 
           <div

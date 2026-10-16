@@ -37,13 +37,13 @@ const BRUFEN: MedContent = {
     },
     {
       title: 'Atenção antes de tomar',
-      body: 'Se tens estômago sensível, problemas renais, asma ou alergia a anti-inflamatórios, convém ter cuidado.',
+      body: 'Se tem estômago sensível, problemas renais, asma ou alergia a anti-inflamatórios, convém ter cuidado.',
     },
   ],
   chips: {
     'Interações': {
       question: 'Quais as interações que devo ter em conta?',
-      answer: 'O Brufen pode interagir com medicamentos para a tensão arterial, como alguns anti-hipertensores, e também com anticoagulantes, aspirina e outros anti-inflamatórios.\nSe estás a tomar medicação para a hipertensão, é importante confirmar com o médico ou farmacêutico antes de usar.',
+      answer: 'O Brufen pode interagir com medicamentos para a tensão arterial, como alguns anti-hipertensores, e também com anticoagulantes, aspirina e outros anti-inflamatórios.\nSe está a tomar medicação para a hipertensão, é importante confirmar com o médico ou farmacêutico antes de usar.',
       thinkTime: 2400,
     },
     'Como tomar': {
@@ -53,7 +53,7 @@ const BRUFEN: MedContent = {
     },
     'Efeitos secundários': {
       question: 'Quais os efeitos secundários?',
-      answer: 'Os efeitos mais comuns podem incluir dor de estômago, náuseas, azia ou tonturas. Em pessoas com hipertensão, pode também interferir com o controlo da tensão arterial.\nSe notares inchaço, falta de ar, dor no peito ou subida da tensão, procura ajuda médica.',
+      answer: 'Os efeitos mais comuns podem incluir dor de estômago, náuseas, azia ou tonturas. Em pessoas com hipertensão, pode também interferir com o controlo da tensão arterial.\nSe notar inchaço, falta de ar, dor no peito ou subida da tensão, procure ajuda médica.',
       thinkTime: 1800,
     },
   },
@@ -71,7 +71,7 @@ const BRUFEN: MedContent = {
   ],
   banner: {
     type: 'warning',
-    text: 'Devido ao teu histórico de hipertensão recomendo que vejas possíveis interações e efeitos secundários.',
+    text: 'Devido ao seu histórico de hipertensão, recomendamos que veja as possíveis interações e efeitos secundários.',
   },
 };
 
@@ -90,13 +90,13 @@ const CLAVULIN: MedContent = {
     },
     {
       title: 'Atenção antes de tomar',
-      body: 'Se tens alergia a penicilinas ou cefalosporinas, problemas hepáticos ou histórico de icterícia associada a este medicamento, não deves tomar sem orientação médica.',
+      body: 'Se tem alergia a penicilinas ou cefalosporinas, problemas hepáticos ou histórico de icterícia associada a este medicamento, não deve tomar sem orientação médica.',
     },
   ],
   chips: {
     'Interações': {
       question: 'Quais as interações que devo ter em conta?',
-      answer: 'O Clavulin pode interagir com anticoagulantes como a varfarina, aumentando o risco de hemorragia. Também pode reduzir a eficácia dos contracetivos orais.\nSe estás a tomar metotrexato ou alopurinol, informa o médico antes de usar.',
+      answer: 'O Clavulin pode interagir com anticoagulantes como a varfarina, aumentando o risco de hemorragia. Também pode reduzir a eficácia dos contracetivos orais.\nSe está a tomar metotrexato ou alopurinol, informe o médico antes de usar.',
       thinkTime: 2400,
     },
     'Como tomar': {
@@ -106,7 +106,7 @@ const CLAVULIN: MedContent = {
     },
     'Efeitos secundários': {
       question: 'Quais os efeitos secundários?',
-      answer: 'Os efeitos mais comuns incluem diarreia, náuseas e erupções cutâneas. Em casos raros, podem ocorrer reações alérgicas graves.\nSe notares inchaço da face, dificuldade em respirar ou erupção cutânea generalizada, procura ajuda médica imediatamente.',
+      answer: 'Os efeitos mais comuns incluem diarreia, náuseas e erupções cutâneas. Em casos raros, podem ocorrer reações alérgicas graves.\nSe notar inchaço da face, dificuldade em respirar ou erupção cutânea generalizada, procure ajuda médica imediatamente.',
       thinkTime: 1800,
     },
   },
@@ -124,7 +124,7 @@ const CLAVULIN: MedContent = {
   ],
   banner: {
     type: 'danger',
-    text: 'Tens alergia à penicilina. O Clavulin pertence a esta família e pode não ser seguro.',
+    text: 'Tem alergia à penicilina. O Clavulin pertence a esta família e pode não ser seguro.',
   },
 };
 
@@ -143,13 +143,13 @@ const BEURON: MedContent = {
     },
     {
       title: 'Atenção antes de tomar',
-      body: 'Se tens problemas hepáticos, consomes álcool regularmente ou tens insuficiência renal, deves ter cuidado e consultar o médico antes de tomar.',
+      body: 'Se tem problemas hepáticos, consome álcool regularmente ou tem insuficiência renal, deve ter cuidado e consultar o médico antes de tomar.',
     },
   ],
   chips: {
     'Interações': {
       question: 'Quais as interações que devo ter em conta?',
-      answer: 'O Ben-U-Ron pode interagir com anticoagulantes como a varfarina, aumentando o risco de hemorragia. Também pode haver interação com medicamentos para a epilepsia e a tuberculose.\nEvita tomar com outros medicamentos que contenham paracetamol para não exceder a dose máxima diária.',
+      answer: 'O Ben-U-Ron pode interagir com anticoagulantes como a varfarina, aumentando o risco de hemorragia. Também pode haver interação com medicamentos para a epilepsia e a tuberculose.\nEvite tomar com outros medicamentos que contenham paracetamol para não exceder a dose máxima diária.',
       thinkTime: 2400,
     },
     'Como tomar': {
@@ -159,7 +159,7 @@ const BEURON: MedContent = {
     },
     'Efeitos secundários': {
       question: 'Quais os efeitos secundários?',
-      answer: 'O paracetamol é geralmente bem tolerado nas doses recomendadas. Raramente podem ocorrer reações alérgicas cutâneas.\nEm caso de sobredosagem, pode causar danos graves no fígado. Se tomares mais do que a dose recomendada, procura ajuda médica imediatamente.',
+      answer: 'O paracetamol é geralmente bem tolerado nas doses recomendadas. Raramente podem ocorrer reações alérgicas cutâneas.\nEm caso de sobredosagem, pode causar danos graves no fígado. Se tomar mais do que a dose recomendada, procure ajuda médica imediatamente.',
       thinkTime: 1800,
     },
   },
@@ -196,13 +196,13 @@ const OMEPRAZOL: MedContent = {
     },
     {
       title: 'Atenção antes de tomar',
-      body: 'Se tens problemas hepáticos graves ou tomas clopidogrel, deves informar o médico. O uso prolongado pode afetar a absorção de magnésio e cálcio.',
+      body: 'Se tem problemas hepáticos graves ou toma clopidogrel, deve informar o médico. O uso prolongado pode afetar a absorção de magnésio e cálcio.',
     },
   ],
   chips: {
     'Interações': {
       question: 'Quais as interações que devo ter em conta?',
-      answer: 'O Omeprazol pode interagir com o clopidogrel, reduzindo a sua eficácia. Também pode afetar a absorção de medicamentos que dependem da acidez gástrica, como o cetoconazol ou a digoxina.\nInforma sempre o médico sobre toda a medicação que estás a tomar.',
+      answer: 'O Omeprazol pode interagir com o clopidogrel, reduzindo a sua eficácia. Também pode afetar a absorção de medicamentos que dependem da acidez gástrica, como o cetoconazol ou a digoxina.\nInforme sempre o médico sobre toda a medicação que está a tomar.',
       thinkTime: 2400,
     },
     'Como tomar': {
@@ -212,7 +212,7 @@ const OMEPRAZOL: MedContent = {
     },
     'Efeitos secundários': {
       question: 'Quais os efeitos secundários?',
-      answer: 'Os efeitos mais comuns incluem dor de cabeça, diarreia, náuseas e dor abdominal. O uso prolongado pode estar associado a deficiência de magnésio e aumento do risco de fraturas ósseas.\nSe sentires sintomas como cãibras ou palpitações, consulta o médico.',
+      answer: 'Os efeitos mais comuns incluem dor de cabeça, diarreia, náuseas e dor abdominal. O uso prolongado pode estar associado a deficiência de magnésio e aumento do risco de fraturas ósseas.\nSe sentir sintomas como cãibras ou palpitações, consulte o médico.',
       thinkTime: 1800,
     },
   },
@@ -249,23 +249,23 @@ const PLAVIX: MedContent = {
     },
     {
       title: 'Atenção antes de tomar',
-      body: 'Se tens hemorragia ativa, úlcera gástrica, problemas hepáticos graves ou vais ser submetido a cirurgia, informa o médico antes de tomar.',
+      body: 'Se tem hemorragia ativa, úlcera gástrica, problemas hepáticos graves ou vai ser submetido a cirurgia, informe o médico antes de tomar.',
     },
   ],
   chips: {
     'Interações': {
       question: 'Quais as interações que devo ter em conta?',
-      answer: 'O Plavix pode interagir com o omeprazol, que reduz a sua eficácia antiagregante. Se precisares de proteção gástrica, o pantoprazol é geralmente preferido.\nTambém interage com anticoagulantes (varfarina), anti-inflamatórios (ibuprofeno) e alguns antidepressivos. Como tomas Atenolol para a hipertensão, a combinação é geralmente segura, mas informa sempre o médico.',
+      answer: 'O Plavix pode interagir com o omeprazol, que reduz a sua eficácia antiagregante. Se precisar de proteção gástrica, o pantoprazol é geralmente preferido.\nTambém interage com anticoagulantes (varfarina), anti-inflamatórios (ibuprofeno) e alguns antidepressivos. Como toma Atenolol para a hipertensão, a combinação é geralmente segura, mas informe sempre o médico.',
       thinkTime: 2600,
     },
     'Como tomar': {
       question: 'No meu caso como devo tomar?',
-      answer: 'A dose habitual é de 75 mg, uma vez por dia. Pode ser tomado com ou sem alimentos, sempre à mesma hora.\nComo tens hipertensão e tomas Atenolol, o Plavix complementa a proteção cardiovascular. Não interrompas o tratamento sem consultar o médico.',
+      answer: 'A dose habitual é de 75 mg, uma vez por dia. Pode ser tomado com ou sem alimentos, sempre à mesma hora.\nComo tem hipertensão e toma Atenolol, o Plavix complementa a proteção cardiovascular. Não interrompa o tratamento sem consultar o médico.',
       thinkTime: 2200,
     },
     'Efeitos secundários': {
       question: 'Quais os efeitos secundários?',
-      answer: 'Os efeitos mais comuns incluem hemorragias (nódoas negras, hemorragia nasal, sangramento gengival), diarreia e dor abdominal.\nComo tomas Sinvastatina, a combinação é segura mas fica atento a dores musculares inexplicáveis. Se notares fezes escuras, sangue na urina ou hemorragia prolongada, procura ajuda médica imediata.',
+      answer: 'Os efeitos mais comuns incluem hemorragias (nódoas negras, hemorragia nasal, sangramento gengival), diarreia e dor abdominal.\nComo toma Sinvastatina, a combinação é segura, mas esteja atento a dores musculares inexplicáveis. Se notar fezes escuras, sangue na urina ou hemorragia prolongada, procure ajuda médica imediata.',
       thinkTime: 2000,
     },
   },
@@ -283,7 +283,7 @@ const PLAVIX: MedContent = {
   ],
   banner: {
     type: 'danger',
-    text: 'Tens Doença Hepática Grave registada no perfil. O Plavix é metabolizado pelo fígado e está contraindicado em insuficiência hepática grave, podendo aumentar o risco de hemorragia.',
+    text: 'Tem doença hepática grave registada no perfil. O Plavix é metabolizado pelo fígado e está contraindicado em insuficiência hepática grave, podendo aumentar o risco de hemorragia.',
   },
 };
 
@@ -302,23 +302,23 @@ const LOSEC: MedContent = {
     },
     {
       title: 'Atenção antes de tomar',
-      body: 'Se tomas clopidogrel (Plavix), informa o médico porque o omeprazol pode reduzir a eficácia desse medicamento. O uso prolongado pode afetar a absorção de magnésio, cálcio e vitamina B12.',
+      body: 'Se toma clopidogrel (Plavix), informe o médico, porque o omeprazol pode reduzir a eficácia desse medicamento. O uso prolongado pode afetar a absorção de magnésio, cálcio e vitamina B12.',
     },
   ],
   chips: {
     'Interações': {
       question: 'Quais as interações que devo ter em conta?',
-      answer: 'O Losec pode reduzir a eficácia do clopidogrel (Plavix), um antiagregante plaquetário. Se tomares ambos, o médico pode optar pelo pantoprazol como alternativa.\nTambém pode interagir com a Sinvastatina que tomas, embora o risco seja baixo. Informa o médico sobre toda a tua medicação.',
+      answer: 'O Losec pode reduzir a eficácia do clopidogrel (Plavix), um antiagregante plaquetário. Se tomar ambos, o médico pode optar pelo pantoprazol como alternativa.\nTambém pode interagir com a Sinvastatina que toma, embora o risco seja baixo. Informe o médico sobre toda a sua medicação.',
       thinkTime: 2400,
     },
     'Como tomar': {
       question: 'No meu caso como devo tomar?',
-      answer: 'Toma o Losec em jejum, 30 minutos antes do pequeno-almoço. Engole a cápsula inteira com água, sem mastigar.\nComo tens hipertensão e tomas Atenolol, não há interação significativa com o Losec. Mantém os horários regulares.',
+      answer: 'Tome o Losec em jejum, 30 minutos antes do pequeno-almoço. Engula a cápsula inteira com água, sem mastigar.\nComo tem hipertensão e toma Atenolol, não há interação significativa com o Losec. Mantenha os horários regulares.',
       thinkTime: 2000,
     },
     'Efeitos secundários': {
       question: 'Quais os efeitos secundários?',
-      answer: 'Os efeitos mais comuns incluem dor de cabeça, diarreia, náuseas e dor abdominal. O uso prolongado pode levar a deficiência de magnésio, maior risco de fraturas ósseas e deficiência de vitamina B12.\nSe sentires cãibras musculares, palpitações ou fadiga inexplicável, consulta o médico.',
+      answer: 'Os efeitos mais comuns incluem dor de cabeça, diarreia, náuseas e dor abdominal. O uso prolongado pode levar a deficiência de magnésio, maior risco de fraturas ósseas e deficiência de vitamina B12.\nSe sentir cãibras musculares, palpitações ou fadiga inexplicável, consulte o médico.',
       thinkTime: 1800,
     },
   },
@@ -336,7 +336,7 @@ const LOSEC: MedContent = {
   ],
   banner: {
     type: 'warning',
-    text: 'Se também tomas clopidogrel (Plavix), o omeprazol pode reduzir a sua eficácia. Confirma com o médico.',
+    text: 'Se também toma clopidogrel (Plavix), o omeprazol pode reduzir a sua eficácia. Confirme com o médico.',
   },
 };
 
@@ -355,23 +355,23 @@ const CLAVAMOX: MedContent = {
     },
     {
       title: 'Atenção antes de tomar',
-      body: 'Se tens alergia a penicilinas ou cefalosporinas, este medicamento pode causar reação alérgica grave. Informa sempre o médico sobre as tuas alergias.',
+      body: 'Se tem alergia a penicilinas ou cefalosporinas, este medicamento pode causar reação alérgica grave. Informe sempre o médico sobre as suas alergias.',
     },
   ],
   chips: {
     'Interações': {
       question: 'Quais as interações que devo ter em conta?',
-      answer: 'O Clavamox pode interagir com anticoagulantes como a varfarina, aumentando o risco de hemorragia. Também pode reduzir a eficácia dos contracetivos orais.\nCom a tua medicação atual (Atenolol e Sinvastatina), não há interações significativas conhecidas. No entanto, informa sempre o médico.',
+      answer: 'O Clavamox pode interagir com anticoagulantes como a varfarina, aumentando o risco de hemorragia. Também pode reduzir a eficácia dos contracetivos orais.\nCom a sua medicação atual (Atenolol e Sinvastatina), não há interações significativas conhecidas. No entanto, informe sempre o médico.',
       thinkTime: 2400,
     },
     'Como tomar': {
       question: 'No meu caso como devo tomar?',
-      answer: 'O Clavamox deve ser tomado no início das refeições para melhorar a absorção e reduzir possíveis efeitos gastrointestinais.\nRespeita os horários prescritos e completa todo o tratamento, mesmo que te sintas melhor antes.',
+      answer: 'O Clavamox deve ser tomado no início das refeições para melhorar a absorção e reduzir possíveis efeitos gastrointestinais.\nRespeite os horários prescritos e complete todo o tratamento, mesmo que se sinta melhor antes.',
       thinkTime: 2000,
     },
     'Efeitos secundários': {
       question: 'Quais os efeitos secundários?',
-      answer: 'Os efeitos mais comuns incluem diarreia, náuseas, vómitos e erupções cutâneas. Em casos raros, podem ocorrer reações alérgicas graves (anafilaxia).\n⚠️ IMPORTANTE: Tens alergia registada à penicilina. O Clavamox contém amoxicilina, que pertence à família das penicilinas. Procura ajuda médica imediata se sentires inchaço, dificuldade em respirar ou erupção cutânea.',
+      answer: 'Os efeitos mais comuns incluem diarreia, náuseas, vómitos e erupções cutâneas. Em casos raros, podem ocorrer reações alérgicas graves (anafilaxia).\n⚠️ IMPORTANTE: Tem alergia registada à penicilina. O Clavamox contém amoxicilina, que pertence à família das penicilinas. Procure ajuda médica imediata se sentir inchaço, dificuldade em respirar ou erupção cutânea.',
       thinkTime: 2000,
     },
   },
@@ -389,7 +389,7 @@ const CLAVAMOX: MedContent = {
   ],
   banner: {
     type: 'danger',
-    text: 'Tens alergia registada à penicilina. O Clavamox contém amoxicilina, que pertence à família das penicilinas, e pode causar reação alérgica grave.',
+    text: 'Tem alergia registada à penicilina. O Clavamox contém amoxicilina, que pertence à família das penicilinas, e pode causar reação alérgica grave.',
   },
 };
 
@@ -408,23 +408,23 @@ const COZAAR: MedContent = {
     },
     {
       title: 'Atenção antes de tomar',
-      body: 'Se tens problemas renais graves, estenose bilateral das artérias renais, estás grávida ou a amamentar, não deves tomar sem orientação médica.',
+      body: 'Se tem problemas renais graves, estenose bilateral das artérias renais, está grávida ou a amamentar, não deve tomar sem orientação médica.',
     },
   ],
   chips: {
     'Interações': {
       question: 'Quais as interações que devo ter em conta?',
-      answer: 'O Cozaar pode interagir com o Atenolol que já tomas, pois ambos baixam a tensão, pelo que a combinação requer monitorização cuidadosa para evitar hipotensão.\nTambém interage com anti-inflamatórios (ibuprofeno), suplementos de potássio e diuréticos poupadores de potássio. A Sinvastatina não apresenta interação significativa.',
+      answer: 'O Cozaar pode interagir com o Atenolol que já toma, pois ambos baixam a tensão, pelo que a combinação requer monitorização cuidadosa para evitar hipotensão.\nTambém interage com anti-inflamatórios (ibuprofeno), suplementos de potássio e diuréticos poupadores de potássio. A Sinvastatina não apresenta interação significativa.',
       thinkTime: 2600,
     },
     'Como tomar': {
       question: 'No meu caso como devo tomar?',
-      answer: 'A dose habitual é de 50 a 100 mg, uma vez por dia. Pode ser tomado com ou sem alimentos, sempre à mesma hora.\nComo já tomas Atenolol para a hipertensão, a associação com Cozaar deve ser monitorizada pelo médico para ajustar as doses.',
+      answer: 'A dose habitual é de 50 a 100 mg, uma vez por dia. Pode ser tomado com ou sem alimentos, sempre à mesma hora.\nComo já toma Atenolol para a hipertensão, a associação com Cozaar deve ser monitorizada pelo médico para ajustar as doses.',
       thinkTime: 2200,
     },
     'Efeitos secundários': {
       question: 'Quais os efeitos secundários?',
-      answer: 'Os efeitos mais comuns incluem tonturas, cansaço e hipotensão (tensão baixa), especialmente no início do tratamento ou quando combinado com outros anti-hipertensores como o Atenolol.\nSe sentires tonturas ao levantar, visão turva, ou desmaios, contacta o médico para ajuste de dose.',
+      answer: 'Os efeitos mais comuns incluem tonturas, cansaço e hipotensão (tensão baixa), especialmente no início do tratamento ou quando combinado com outros anti-hipertensores como o Atenolol.\nSe sentir tonturas ao levantar-se, visão turva ou desmaios, contacte o médico para ajuste de dose.',
       thinkTime: 2000,
     },
   },
@@ -442,7 +442,7 @@ const COZAAR: MedContent = {
   ],
   banner: {
     type: 'warning',
-    text: 'Já tomas Atenolol para a hipertensão. A combinação com Cozaar requer monitorização da tensão para evitar hipotensão.',
+    text: 'Já toma Atenolol para a hipertensão. A combinação com Cozaar requer monitorização da tensão para evitar hipotensão.',
   },
 };
 
@@ -696,7 +696,7 @@ export function MedInfoScreen() {
         >
           <button
             type="button"
-            onClick={() => navigate(hasProfile ? -1 : '/guest')}
+            onClick={() => (hasProfile ? navigate(-1) : navigate('/guest'))}
             aria-label="Voltar"
             style={{
               width: 44,

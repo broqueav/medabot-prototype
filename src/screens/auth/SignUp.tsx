@@ -101,7 +101,7 @@ export function SignUpScreen() {
                 color: 'var(--color-text-primary)',
               }}
             >
-              Cria Conta
+              Criar Conta
             </h1>
             {/* Right slot — simetria do justify-between */}
             <div style={{ width: 44, height: 44 }} aria-hidden />
