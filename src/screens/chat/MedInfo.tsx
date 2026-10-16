@@ -30,7 +30,7 @@ const BRUFEN: MedContent = {
     {
       title: 'Resumo rápido',
       bullets: [
-        '· Substancia ativa: ibuprofeno.',
+        '· Substância ativa: ibuprofeno.',
         '· Indicação: dor, inflamação, febre.',
         '· Uso habitual: curto prazo.',
       ],
@@ -769,6 +769,60 @@ export function MedInfoScreen() {
             >
               Gerado por IA · Informação educativa · Consulte um profissional.
             </p>
+
+            {/* Guest notice — answers are not personalised */}
+            {!hasProfile && (
+              <div
+                role="note"
+                style={{
+                  width: '100%',
+                  padding: '8px var(--space-sm)',
+                  background: 'var(--color-info-bg)',
+                  border: '1px solid var(--color-info-surface)',
+                  borderRadius: 'var(--radius-xsm)',
+                  display: 'flex',
+                  gap: 6,
+                  alignItems: 'flex-start',
+                  flexShrink: 0,
+                }}
+              >
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" aria-hidden style={{ flexShrink: 0, marginTop: 2 }}>
+                  <circle cx="12" cy="12" r="10" stroke="var(--color-info-text)" strokeWidth="2" />
+                  <line x1="12" y1="11" x2="12" y2="16" stroke="var(--color-info-text)" strokeWidth="2" strokeLinecap="round" />
+                  <circle cx="12" cy="8" r="1" fill="var(--color-info-text)" />
+                </svg>
+                <p
+                  style={{
+                    margin: 0,
+                    flex: 1,
+                    fontFamily: 'var(--font-family)',
+                    fontWeight: 'var(--font-weight-medium)',
+                    fontSize: 'var(--font-size-caption)',
+                    lineHeight: 'var(--line-height-caption)',
+                    color: 'var(--color-info-text)',
+                  }}
+                >
+                  Esta informação é geral e não considera o seu perfil de saúde.{' '}
+                  <button
+                    type="button"
+                    onClick={() => navigate('/guest/sign-up')}
+                    style={{
+                      background: 'none',
+                      border: 'none',
+                      padding: 0,
+                      font: 'inherit',
+                      fontWeight: 'var(--font-weight-semibold)',
+                      color: 'var(--color-info-text)',
+                      textDecoration: 'underline',
+                      cursor: 'pointer',
+                    }}
+                  >
+                    Crie conta
+                  </button>{' '}
+                  para respostas à sua medida.
+                </p>
+              </div>
+            )}
 
             {/* Alert banner — sticky at top of scroll area */}
             {showBanner && (
@@ -1537,26 +1591,64 @@ export function MedInfoScreen() {
               {med.banner.text}
             </p>
 
-            {/* Dismiss button */}
-            <button
-              type="button"
-              onClick={() => setShowDangerModal(false)}
+            {/* Escalation: next step */}
+            <p
               style={{
-                width: '100%',
-                height: 44,
-                background: 'var(--color-danger-text, #991b1b)',
-                border: 'none',
-                borderRadius: 'var(--radius-md)',
+                margin: 0,
                 fontFamily: 'var(--font-family)',
                 fontWeight: 'var(--font-weight-semibold)',
                 fontSize: 'var(--font-size-body-m)',
                 lineHeight: 'var(--line-height-body-m)',
-                color: 'white',
-                cursor: 'pointer',
+                color: 'var(--color-text-primary)',
+                textAlign: 'center',
               }}
             >
-              Entendi
-            </button>
+              Antes de tomar, fale com o seu médico ou farmacêutico.
+            </p>
+
+            <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-xs)', width: '100%' }}>
+              <a
+                href="tel:808242424"
+                aria-label="Ligar para o SNS 24, 808 24 24 24"
+                style={{
+                  width: '100%',
+                  height: 44,
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  background: 'var(--color-danger-text, #991b1b)',
+                  borderRadius: 'var(--radius-md)',
+                  fontFamily: 'var(--font-family)',
+                  fontWeight: 'var(--font-weight-semibold)',
+                  fontSize: 'var(--font-size-body-m)',
+                  lineHeight: 'var(--line-height-body-m)',
+                  color: 'white',
+                  textDecoration: 'none',
+                }}
+              >
+                Ligar SNS 24 · 808 24 24 24
+              </a>
+
+              <button
+                type="button"
+                onClick={() => setShowDangerModal(false)}
+                style={{
+                  width: '100%',
+                  height: 44,
+                  background: 'transparent',
+                  border: '1.5px solid var(--color-danger-text, #991b1b)',
+                  borderRadius: 'var(--radius-md)',
+                  fontFamily: 'var(--font-family)',
+                  fontWeight: 'var(--font-weight-semibold)',
+                  fontSize: 'var(--font-size-body-m)',
+                  lineHeight: 'var(--line-height-body-m)',
+                  color: 'var(--color-danger-text, #991b1b)',
+                  cursor: 'pointer',
+                }}
+              >
+                Entendi
+              </button>
+            </div>
           </div>
         </div>
       )}
