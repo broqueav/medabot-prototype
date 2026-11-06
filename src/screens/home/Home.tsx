@@ -164,7 +164,7 @@ export function HomeScreen() {
                 fontWeight: 'var(--font-weight-semibold)',
                 fontSize: 'var(--font-size-title-l)',
                 lineHeight: 'var(--line-height-title-l)',
-                color: '#b3d4ff',
+                color: '#c7dfff',
                 maxWidth: 266,
               }}
             >

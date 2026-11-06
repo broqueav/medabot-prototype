@@ -160,7 +160,7 @@ export function ScanScreen() {
               fontWeight: 'var(--font-weight-regular)',
               fontSize: 'var(--font-size-body-m)',
               lineHeight: 'var(--line-height-body-m)',
-              color: '#b3d4ff',
+              color: '#c7dfff',
               textAlign: 'center',
               padding: '0 var(--space-lg)',
             }}

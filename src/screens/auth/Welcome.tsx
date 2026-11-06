@@ -10,7 +10,7 @@ import pillSvg from '@/assets/welcome-pill.svg';
  * - Outer wrapper: neutral/background, padding 4 (spacing/2xs)
  * - Blue frame: gradient #0052cc → #0e63e2, radius 55 (radius/lg), shadow-high
  *   - StatusBar (white)
- *   - Hero text centrado: Display "Bem-vindo ao Medabot" + Body M subtitle "#b3d4ff"
+ *   - Hero text centrado: Display "Bem-vindo ao Medabot" + Body M subtitle "#c7dfff"
  * - CTA section (fora do blue frame, sobre fundo neutral):
  *   - Botão Primary "Criar Conta"
  *   - Botão Secondary "Iniciar Sessão"
@@ -110,7 +110,7 @@ export function WelcomeScreen({ children }: WelcomeScreenProps = {}) {
                 fontWeight: 'var(--font-weight-regular)',
                 fontSize: 'var(--font-size-body-m)',
                 lineHeight: 'var(--line-height-body-m)',
-                color: '#b3d4ff',
+                color: '#c7dfff',
                 textAlign: 'center',
                 width: '100%',
               }}

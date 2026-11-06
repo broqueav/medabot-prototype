@@ -173,7 +173,7 @@ export function WarningScreen() {
                   fontWeight: 'var(--font-weight-regular)',
                   fontSize: 'var(--font-size-body-m)',
                   lineHeight: 'var(--line-height-body-m)',
-                  color: '#b3d4ff',
+                  color: '#c7dfff',
                   textAlign: 'left',
                 }}
               >

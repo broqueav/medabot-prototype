@@ -7,7 +7,7 @@ import { BlueFrame } from './BlueFrame';
  * - Container: pt-128, pb-12, px-16, justify-between
  * - Inner group: gap-24, items-center, text-center
  * - Icon 56×56 (inner 36) + Title Display center
- * - Body M text-[#b3d4ff] text-center
+ * - Body M text-[#c7dfff] text-center
  * - Dots indicator (active index) + Seguinte button + Saltar link
  */
 interface OnboardingInfoProps {
@@ -105,7 +105,7 @@ export function OnboardingInfo({
               fontWeight: 'var(--font-weight-regular)',
               fontSize: 'var(--font-size-body-m)',
               lineHeight: 'var(--line-height-body-m)',
-              color: '#b3d4ff',
+              color: '#c7dfff',
               textAlign: 'center',
             }}
           >
